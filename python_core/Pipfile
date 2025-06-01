@@ -8,6 +8,7 @@ name = "pypi"
 [dev-packages]
 ruff = "*"
 mypy = "*"
+black = "*"
 
 [requires]
 python_version = "3.10"

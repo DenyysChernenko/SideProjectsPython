@@ -1,0 +1,10 @@
+__pycache__/
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+__ruff_cache__/
+
+.pytest_cache/
+

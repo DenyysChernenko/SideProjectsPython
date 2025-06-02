@@ -1,0 +1,11 @@
+detection_result true       # ❌ Missing colon after key
+engine_version: 7.5.1
+file_hash: d41d8cd98f00b204e9800998ecf8427e
+file_name: ransomware_sample.exe
+scan_date: '2025-06-02
+scan_info:
+  definitions_version: 2025-06-01   # ❌ Unquoted date that can cause issues (should be quoted)
+   scan_duration_seconds: 50       # ❌ Incorrect indentation (3 spaces instead of 2)
+  scanned_by: MalwareScannerPro
+severity: Critical
+threat_name: Ransom.Locky

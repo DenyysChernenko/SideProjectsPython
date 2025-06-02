@@ -9,6 +9,7 @@ name = "pypi"
 ruff = "*"
 mypy = "*"
 black = "*"
+pyyaml = "*"
 
 [requires]
 python_version = "3.10"

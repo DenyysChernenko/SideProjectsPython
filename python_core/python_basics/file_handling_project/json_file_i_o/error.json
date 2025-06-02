@@ -1,0 +1,13 @@
+{
+    "file_name": "dota.exe",
+    "file_hash": "abc123def456",
+    "detection_result": false,
+    "scan_date": "2025-06-01",
+    "threat_name": "Trojan.Generic",
+    "severity": "High",
+    "engine_version": "5.2.4"
+    "scan_info": {
+        "date": "2025-06-01",
+        "engine_version": "5.2.4"
+    }
+}

@@ -1,5 +1,6 @@
 import csv
 
+
 filename = "csv_example.csv"
 
 with open(filename, "r", newline="") as f:
@@ -15,13 +16,13 @@ with open(filename, "r", newline="") as f:
         print(row_dict)
 
 with open("csv_example_2.csv", "w", newline="") as f:
-    writer = csv.writer(f, dialect="excel")
+    writer_csv = csv.writer(f, dialect="excel")
     rows = [
         ["file_name", "file_hash", "detection_result"],
         ["dota2.exe", "dota2hash", "true"],
     ]
     # string_2 = ['dota2.exe', 'dota2hash', 'true']
-    writer.writerows(rows)
+    writer_csv.writerows(rows)
 
 with open("csv_example.csv", "w", newline="") as f:
     rows_data = [
@@ -30,9 +31,9 @@ with open("csv_example.csv", "w", newline="") as f:
     ]
     fieldnames = ["file_name", "file_hash", "is_detected"]
 
-    writer = csv.DictWriter(f, fieldnames=fieldnames)
-    writer.writeheader()
-    writer.writerows(rows_data)
+    dict_writer = csv.DictWriter(f, fieldnames=fieldnames)
+    dict_writer.writeheader()
+    dict_writer.writerows(rows_data)
 
 try:
     with open("non_existent_file.csv", "r", newline="") as f:

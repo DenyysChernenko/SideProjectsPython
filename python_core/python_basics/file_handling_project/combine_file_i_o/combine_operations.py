@@ -6,7 +6,6 @@ current_file = Path(__file__)
 current_dir = current_file.parent
 
 files_list = Path(current_dir).glob("*.txt")
-log_filename = "log_file.log"
 log_filename = current_dir / "log_file.log"
 
 

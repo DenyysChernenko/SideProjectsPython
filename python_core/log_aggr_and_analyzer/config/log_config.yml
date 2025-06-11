@@ -1,6 +1,6 @@
 log_directory_path: "C:/Users/TUF/OneDrive/Рабочий стол/GenPrep/SideProjectsPython/python_core/log_aggr_and_analyzer/logs"
 key_strings: 
-  - "Failed login"
-  - "malware detected"
-  - "port scan detected"
-timestamp_format: "%Y-%m-%d %H:%M:%S"
+    - "Failed login"
+    - "malware detected"
+    - "port scan detected"
+timestamp_format:  "%Y-%m-%d_%H-%M-%S"

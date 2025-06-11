@@ -1,0 +1,7 @@
+2025-06-01 11:00:05 User admin logged in successfully
+2025-06-01 11:05:45 WARNING: Failed login attempt for user guest from 172.16.0.2
+2025-06-01 11:10:12 ERROR: malware detected in file /usr/bin/suspicious.sh
+2025-06-01 11:15:30 INFO: Scheduled backup completed
+2025-06-01 11:20:17 ALERT: port scan detected from 172.16.0.5
+2025-06-01 11:10:12 ERROR: malware detected in file /usr/bin/suspicious.sh
+2025-06-01 11:25:05 User root logged out

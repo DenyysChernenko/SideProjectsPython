@@ -1,0 +1,4 @@
+{"rule_name": "Trojan_Generic", "string_names": ["$a", "$b"]}
+{"rule_name": "Suspicious_Script", "string_names": ["$script", "$cmd"]}
+{"rule_name": "Trojan_Generic", "string_names": ["$a", "$b"]}
+{"rule_name": "Suspicious_Script", "string_names": ["$script", "$cmd"]}

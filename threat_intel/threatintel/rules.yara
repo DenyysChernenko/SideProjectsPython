@@ -1,4 +1,4 @@
-rule Trojan_Generic
+rule trojan_generic
 {
     meta:
         author = "alex"
@@ -12,7 +12,7 @@ rule Trojan_Generic
         any of them
 }
 
-rule Suspicious_Script
+rule suspicious_script
 {
     strings:
         $script = "Invoke-Expression"
